@@ -1,0 +1,16 @@
+{
+  "name": "Django ChatterBot Terminal Client",
+  "version": "1.0.0",
+  "description": "A Django management command for terminal conversations with a trained ChatterBot bot.",
+  "entry_point": "python manage.py chat",
+  "python": ">=3.10,<3.15",
+  "framework": "Django 5.2.18",
+  "dependencies": [
+    "Django==5.2.18",
+    "ChatterBot==1.2.15",
+    "spaCy==3.8.7",
+    "NumPy==1.26.4"
+  ],
+  "data_store": "SQLite",
+  "exit_commands": ["exit", "quit"]
+}

@@ -1,0 +1,4 @@
+Django==5.2.18
+ChatterBot==1.2.15
+spacy==3.8.7
+numpy==1.26.4
